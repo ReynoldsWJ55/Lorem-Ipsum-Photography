@@ -51,15 +51,20 @@ h4 {
   font-size: var(--header4);
 }
 
+p {
+  font-size: var(--text);
+}
+
 a {
   text-decoration: none;
+  color: #414141;
 }
 
 ul {
   list-style: none;
 }
 
-li, button, label, input {
+li, button, label, input, a {
   font-size: var(--text);
 }
 
@@ -68,5 +73,13 @@ li, button, label, input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+body{
+  font-family: "frank_ruhl", sans-serif;
+}
+
+h1{
+  font-family: "vibes", sans-serif;
 }
 
