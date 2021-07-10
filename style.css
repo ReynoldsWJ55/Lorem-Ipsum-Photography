@@ -1,5 +1,72 @@
-* {
+/* Global Stlyes */
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: frank_ruhl;
+  src: url(/fonts/Frank_Ruhl_Libre/FrankRuhlLibre-Regular.ttf);
+}
+
+@font-face {
+  font-family: frank_ruhl-medium;
+  src: url(/fonts/Frank_Ruhl_Libre/FrankRuhlLibre-Medium.ttf);
+}
+
+@font-face {
+  font-family: vibes;
+  src: url(/fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+
+
+html {
+  font-size: 62.5%;
+  --header1: calc(2rem + 1vw);
+  --header2: calc(3.5rem + 1vw);
+  --header3: calc(3rem + 1vw);
+  --header4: calc(2.4rem + 1vw);
+  --text: calc(1.5rem + 1vw);
+  --big: calc(2.4rem + 1vw);
+  --background-color: #414141;
+  --text-color: #525252;
+  --special-color: #906272;
+}
+
+h1 {
+  font-size: var(--header1);
+}
+
+h2 {
+  font-size: var(--header2);
+}
+
+h3 {
+  font-size: var(--header3);
+}
+
+h4 {
+  font-size: var(--header4);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li, button, label, input {
+  font-size: var(--text);
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
