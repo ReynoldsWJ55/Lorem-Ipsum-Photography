@@ -18,7 +18,7 @@
             <ul class="nav-links">
                 <li><a href="#portraits-section">Portraits</a></li>
                 <li><a href="#landscapes-section">Landscapes</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -41,14 +41,30 @@
             <img class="landscape4" src="/img/landscape4.jpeg" alt="">
             <h2 class="landscape-text">Moments in<br>Time</h2>
         </section>
-        <section id="contact-section">
-            <img src="" alt="">
+        <section class="contact" id="contact-section">
+            <div class="form-wrapper flex">
+                <h2>Get in<br>
+                    <span>touch</span>
+                </h2>
+                <form class="form flex" action="submit">
+                    <label for="name" class="name">Name:</label>
+                    <input type="text" name="name" class="name" required>
+                    <label for="email" class="email" validation required>Email:</label>
+                    <input type="email" class="email">
+                    <label for="message" class="message-label" Required>Message:</label>
+                    <input type="text" class="message" Placeholder="Enter Message...">
+                    <button class="submit">Submit</button>
+                </div>
+                <img src="/img/contact-image.jpeg" alt="">
+            </form>
         </section>
     </main>
     <footer class="footer">
         <div class="social-media">
-            <a href="" class="facebook"></a>
-            <a href="" class="instagram"></a>
+            <ul>
+                <li><a href="" class="facebook"></a></li>
+                <li><a href="" class="instagram"></a></li>
+            </ul>
         </div>
         <p class="copyright">Copyright</p>
     </footer>

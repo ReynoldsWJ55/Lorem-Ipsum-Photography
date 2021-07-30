@@ -28,10 +28,15 @@ html {
   --header3: calc(3rem + 1vw);
   --header4: calc(2.4rem + 1vw);
   --text: calc(1.5rem + 1vw);
-  --big: calc(2.4rem + 1vw);
+  --big: calc(6rem + 1vw);
   --background-color: #414141;
   --text-color: #525252;
   --special-color: #906272;
+}
+
+.body {
+  max-width: 90%;
+  margin: auto;
 }
 
 h1 {
@@ -163,7 +168,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: var(--text-color);
+  color: var(--special-color);
   font-family: frank_ruhl-medium;
 }
 
@@ -207,8 +212,65 @@ nav {
   font-family: frank_ruhl-medium;
 }
 
+.form-wrapper {
+  flex: 3 1 40rem;
+  padding: 2rem 0;
+}
+
+.form-wrapper h2 {
+  font-size: var(--big);
+  color: var(--text-color);
+}
+
+.form-wrapper span {
+  font-size: var(--big);
+  color: var(--special-color);
+}
+
+.form label {
+  color: var(--text-color);
+  display: block;
+  padding: 2rem 0;
+}
+
+.form input {
+  display: block;
+  background-color: var(--background-color);
+  color: white;
+  padding: 1rem;
+}
+
+.message {
+  width: 400px;
+  height: 300px;
+}
+
+.form button {
+  margin: 3rem 0;
+  background-color: var(--background-color);
+  color: white;
+  padding: 1rem;
+  width: 100%;
+}
+
+.contact {
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact img {
+  flex: 1 1 40rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
 .footer {
   min-height: 5vh;
   display: flex;
   align-items: center;
+  color: var(--text-color);
+}
+
+@media {
 }
