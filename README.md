@@ -7,3 +7,4 @@ In this project I created a photography website using HTML5 and CSS3 to host my 
 
 - Created repository on GitHub
 - Created HTML and CSS pages
+- Used CSS grid to design the layout of my website
