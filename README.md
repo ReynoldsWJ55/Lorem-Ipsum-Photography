@@ -1,6 +1,6 @@
 # Photography Website Project
 
-In this project I created a photography website using HTML5 and CSS3 to host a fictional photography portfolio.
+In this project, I created a photography website using HTML5 and CSS3 to host a fictional photography portfolio.
 
 
 ## Steps
